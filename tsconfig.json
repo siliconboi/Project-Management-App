@@ -20,7 +20,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/lib/*":["./lib/*"],
+      "@/components/*":["../project-management-app/components/*"],
+      "@/styles/*":["../project-management-app/styles/*"],
+      "@/assets/*":["./assets/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
